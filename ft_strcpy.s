@@ -17,7 +17,6 @@ loop:
 	jmp loop
 
 stop:
-	; mov [rdi + rcx], byte 0
 	mov rax, rdi
 	pop rcx
 	ret
